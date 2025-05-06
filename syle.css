@@ -1,0 +1,178 @@
+:root {
+  --primary: #4a67f5;
+  --secondary: #ff6b6b;
+  --bg-light: #f4f6fc;
+  --text-dark: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.JoinNow {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 150px;
+  z-index: 10;
+}
+
+.dropdown-content.show {
+  display: flex;
+}
+
+.dropdown-content button {
+  padding: 10px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+}
+
+.static {
+  font-size: 42px;
+  color: var(--text-dark);
+}
+
+.dynamic {
+  color: var(--primary);
+}
+
+.line {
+  width: 40%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+.motivation {
+  margin-top: 10px;
+  color: #666;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.login,
+.signup {
+  padding: 10px 20px;
+  background: var(--secondary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.signup {
+  background: var(--primary);
+}
+
+/* About Section */
+.about {
+  background-color: var(--bg-light);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Detailed Fields Section */
+.categories.detailed {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.categories.detailed h2 {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.category-detailed-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.category-detailed-card {
+  background-color: #fefefe;
+  padding: 25px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.category-detailed-card:hover {
+  transform: translateY(-8
