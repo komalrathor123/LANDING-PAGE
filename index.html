@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GROWW SMART</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h3><a href="#">GROWW SMART</a></h3>
+    <button class="mobile-menu-icon" onclick="toggleMobileMenu()">
+      <i class="fas fa-bars" id="menu-icon"></i>
+    </button>
+    <div class="navbar-links" id="nav-links">
+      <a href="#">About</a>
+      <a href="#">Fields</a>
+      <a href="#">Join</a>
+      <a href="#">Blogs</a>
+    </div>
+    <div class="dropdown">
+      <button class="JoinNow" onclick="toggleDropdown()">Join now</button>
+      <div class="dropdown-content" id="dropdown">
+        <button class="login-btn">Login <i class="fas fa-user"></i></button>
+        <button class="signup-btn">Signup <i class="fas fa-user-plus"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h3>Empower Your Future with GROWW SMART</h3>
+    <h1 class="static">LEARN <span class="dynamic">to EARN</span></h1>
+    <hr class="line" />
+    <h3 class="motivation">Guiding your journey from knowledge to success</h3>
+    <div class="buttons">
+      <a href="#" class="login">Login</a>
+      <a href="#" class="signup">Signup</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <div class="about-content">
+      <h2>About GROWW SMART</h2>
+      <p>
+        GROWW SMART is a modern learning platform focused on developing industry-ready skills
+        while connecting you to real-world earning opportunities. Whether you're into tech,
+        design, data, or business, we've got a path tailored for you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Fields Section -->
+  <section class="categories detailed">
+    <h2>Explore Our Fields</h2>
+    <div class="category-detailed-list">
+      <div class="category-detailed-card">
+        <i class="fas fa-code"></i>
+        <h3>Frontend Development</h3>
+        <p>Build responsive UIs with HTML, CSS, JavaScript, and React.</p>
+      </div>
+      <div class="category-detailed-card">
+        <i class="fas fa-server"></i>
+        <h3>Backend Development</h3>
+        <p>Power your apps with APIs, databases, and server logic using Node.js or Django.</p>
+      </div>
+      <div class="category-detailed-card">
+        <i class="fas fa-brain"></i>
+        <h3>AI & Machine Learning</h3>
+        <p>Train models, work on AI projects, and understand deep learning.</p>
+      </div>
+      <div class="category-detailed-card">
+        <i class="fas fa-database"></i>
+        <h3>Data Science</h3>
+        <p>Clean, analyze, and visualize data to derive meaningful insights.</p>
+      </div>
+      <div class="category-detailed-card">
+        <i class="fas fa-cloud"></i>
+        <h3>Cloud Computing</h3>
+        <p>Manage scalable infrastructure on AWS, Azure, and GCP.</p>
+      </div>
+      <div class="category-detailed-card">
+        <i class="fas fa-link"></i>
+        <h3>Blockchain</h3>
+        <p>Explore smart contracts and build decentralized applications (dApps).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>Stay Connected</h3>
+      <p>Subscribe for the latest updates and opportunities</p>
+      <input type="email" placeholder="Enter your email" class="footer-input">
+      <button class="subscribe-btn">Subscribe</button>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="copyright">© 2025 GROWW SMART. Built with ❤️ by KOMAL KANWAR.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
